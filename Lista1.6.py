@@ -1,5 +1,5 @@
-turno = input("Digite em qual turno você estuda: ")
-turno.lower()
+turno = input("Digite em qual turno você estuda: ").lower()
+
 if turno == "v" or turno == "vespertino":
     print("Boa tarde!")
 
